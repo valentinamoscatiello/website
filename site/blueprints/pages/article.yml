@@ -1,0 +1,22 @@
+title: Article
+
+content:
+  type: fields
+
+fields:
+  heading:
+    type: text
+  text: 
+    type: textarea
+  ext_url:
+    label: external URL (dominant)
+    type: url
+  tags:
+    label: Tags
+    type: tags
+  published:
+    label: Published on
+    type: date
+
+
+

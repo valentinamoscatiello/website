@@ -1,0 +1,37 @@
+title: About us
+
+icon: ☎️
+
+status:
+  draft: true
+  listed: true
+
+options:
+  url: false
+  delete: false
+
+columns:
+  - width: 1/2
+    fields:
+      text:
+        label: Text
+        type: textarea
+        size: huge
+
+ - width: 1/2
+    sections:
+      images:
+        type: files
+        layout: cards
+        template: image
+        info: "{{ file.dimensions }}"
+        image:
+          ratio: 5/4
+          cover: true
+        min: 1
+        size: small
+        
+
+
+
+
